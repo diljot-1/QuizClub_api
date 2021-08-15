@@ -1,0 +1,32 @@
+{
+  "name": "testengine_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "heroku-postbuild": "npm run install-client && npm run build",
+    "build":"cd client && npm run build",
+    "install-client": "cd client && npm install",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bluebird": "^3.7.2",
+    "cors": "^2.8.5",
+    "dotenv": "^9.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.5",
+    "morgan": "^1.10.0",
+    "nanoid": "^3.1.23",
+    "nodemailer": "^6.6.0",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "redis": "^3.1.2",
+    "winston": "^3.3.3"
+  }
+}

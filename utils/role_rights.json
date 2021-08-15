@@ -1,0 +1,5 @@
+{
+  "teacher":[{"name":"Tests"}, {"name":"Questions"},{"name":"Add Question"}],
+  "student":[{"name":"Tests alloted"}, {"name":"Score Cards"},{"name":"Score"}]
+  
+}

@@ -1,0 +1,6 @@
+{
+    "question.added": "Question added successfully",
+    "question.add.error":"Error during additon of question in DB",
+    "question.readAll.error":"Error while reading all questions",
+    "question.read.error":"Error while reading question"
+}
